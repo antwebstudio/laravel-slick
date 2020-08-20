@@ -1,0 +1,34 @@
+{
+    "name": "antweb/laravel-slick",
+    "authors": [
+        {
+            "name": "Hui Yang",
+            "email": "chy1988@antwebstudio.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ant\\Widgets\\Providers\\SlickServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ant\\Widgets\\": "src"
+        }
+    },
+    "require": {
+        "rinvex/laravel-widgets": "*",
+        "npm-asset/slick-carousel": "*"
+    }
+}
